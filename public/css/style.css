@@ -1,0 +1,65 @@
+/*small screen*/
+
+@media screen and (max-width:576px) {
+    .sym-class {
+        margin-top: 10%;
+    }
+    .sym-btn {
+        margin-left: 25%;
+    }
+    .time-right {
+        position: fixed;
+        right: 50px;
+        margin-top: -18px;
+        font-style: italic;
+        border-radius: 7px;
+    }
+
+    .msg {
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .sym-class {
+        margin-top: 10%;
+    }
+
+    .msg {
+        width: 85%;
+    }
+}
+
+.sym-scroll {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.time {
+    margin-top: -18px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#user {
+    display: none;
+}
+
+#msg {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    overflow-wrap: break-word;
+}
+
+
+#msg:focus {
+    outline-style: none;
+}
+
+#noOfUsers{
+    display: inline;
+    color: #0000ff;
+}
