@@ -1,6 +1,8 @@
 # iChat
 
-** iChat is a realtime chat app developed with socket.io
+__iChat is a realtime chat app developed with socket.io__
+
+---
 
 ### To start
 ` clone this repo `
